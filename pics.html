@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800%7COpen+Sans:300,400,600,700%7CPT+Serif:400,700"
+        rel="stylesheet">
+    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
+    <title>WebCore</title>
+    <style>
+        #loader-wrapper {
+            position: fixed;
+            left: 0;
+            top: -100px;
+            right: 0;
+            bottom: -100px;
+            background: #fff;
+            z-index: 100;
+        }
+    </style>
+    <!-- PogoSlider css-->
+    <link rel="stylesheet" href="css/pogoslider.css">
+</head>
+
+<body class="styleHomePage7">
+    <!-- Loader-START-->
+    <div id="loader-wrapper"></div>
+    <!-- Loader-END-->
+    <div class="styleFullscreen haslayout">
+        <!-- Header-START-->
+        <header class="main_menu_area">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img width="75px" height="70px" src="logo.jpeg"  alt=""></a>
+                </div>
+        
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown mega_menu active">
+                            <a href="index.html">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <!-- <div class="dropdown-menu mega_menu_inner"> -->
+                            <!-- <div class="mega_item">
+                                        <h3 class="mega_title">Home Pages</h3>
+                                        <ul>
+                                            <li><a href="index.html">Default Home Page</a></li>
+                                            <li><a href="02_Creative_Studio.html">Creative Studio</a></li>
+                                            <li><a href="03_Digital_Agency.html">Digital Agency</a></li>
+                                            <li><a href="04_Web_Agency.html">Web Agency</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="05_Web_Designer_Home.html">Web Designer</a></li>
+                                            <li><a href="06_Developer_Home.html">Developer Home</a></li>
+                                            <li><a href="07_Frontend_Devloper.html">Frontend Developer</a></li>
+                                            <li><a href="08_Personal_Home.html">Personal Portfolio</a></li>
+                                            
+                                        </ul>
+                                        <ul>
+                                            <li><a href="09_Photographer_Home.html">Photographer Home</a></li>
+                                            <li><a href="10_Freelancer_Portfolio.html">Freelancer Portfolio</a></li>
+                                            <li><a href="11_mobile_App.html">Mobile App Home</a></li>
+                                            <li><a href="12_Architecture_Home.html">Architecture Home</a></li>
+                                            
+                                        </ul>
+                                        <ul>
+                                            <li><a href="13_Photograph_Full_Screen.html">Photography Full Screen</a></li>
+                                            <li><a href="14_Photography_with_sidebar.html">Photography With Side Bar</a></li>
+                                            <li><a href="15_Split_Portfolio_Home.html">Split Portfolio</a></li>
+                                            <li><a href="16_Small_Split_Portfolio.html">Small Split Portfolio</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="17_Carousel_Portfolio.html">Carousel Portfolio</a></li>
+                                            <li><a href="18_Masonry_Portfolio.html">Mansonry Full Screen</a></li>
+                                            <li><a href="19_Fullscreen_Showcase.html">Full Screen Showcase</a></li>
+                                            <li><a href="20_Interactive_Home.html">Interactive Links</a></li>
+                                        </ul>
+                                    </div> -->
+                            <!-- </div> -->
+                        </li>
+                        <li class="submenu dropdown">
+                            <a href="services3.html">classes <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <!-- <ul class="dropdown-menu">
+                                    <li class="dropdown submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="about-us.html">-  About Us 1</a></li>
+                                            <li><a href="about-us2.html">-  About Us 2</a></li>
+                                            <li><a href="about-us3.html">-  About Us 3</a></li>
+                                            <li><a href="about-us4.html">-  About Us 4</a></li>
+                                            <li><a href="about-us5.html">-  About Us 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="services.html">-  Services 1</a></li>
+                                            <li><a href="services2.html">-  Services 2</a></li>
+                                            <li><a href="services3.html">-  Services 3</a></li>
+                                            <li><a href="services4.html">-  Services 4</a></li>
+                                            <li><a href="services5.html">-  Services 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="contactus.html">-  Contact Us 1</a></li>
+                                            <li><a href="contact2.html">-  Contact Us 2</a></li>
+                                            <li><a href="contact3.html">-  Contact Us 3</a></li>
+                                            <li><a href="contact4.html">-  Contact Us 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Coming Soon</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="coming-soon.html">-  Coming Soon 1</a></li>
+                                            <li><a href="coming-soon2.html">-  Coming Soon 2</a></li>
+                                            <li><a href="coming-soon3.html">-  Coming Soon 3</a></li>
+                                            <li><a href="coming-soon4.html">-  Coming Soon 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="team-grid.html">-  Team grid</a></li>
+                                            <li><a href="team-list.html">-  Team List</a></li>
+                                            <li><a href="member-profile.html">-  Signal Team Member</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="#">Our Partners</a></li>
+                                    <li><a href="career.html">Career</a></li>
+                                    <li><a href="404.html">404 error page</a></li>
+                                </ul> -->
+                        </li>
+                        <li class="dropdown mega_menu mega_list">
+                            <a href="team-list.html">coaches <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <!-- <div class="dropdown-menu mega_menu_inner">
+                                    <div class="mega_item">
+                                        <h3 class="mega_title">Classic Portfolio</h3>
+                                        <ul>
+                                            <li><a href="portfolio2.html">2 Column with space</a></li>
+        									<li><a href="./pics.html">3 Column with space</a></li>
+        									<li><a href="./pics.html">4 Column with space</a></li>
+        									<li><a href="pics.html">5 Column with space</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="portfolio-nospace-2.html">2 Column without space</a></li>
+        									<li><a href="portfolio-nospace-3.html">3 Column without space</a></li>
+        									<li><a href="portfolio-nospace-4.html">4 Column without space</a></li>
+        									<li><a href="portfolio-nospace-5.html">5 Column without space</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_item">
+                                        <h3 class="mega_title">Grid Portfolio</h3>
+                                        <ul>
+                                            <li><a href="portfolio-simple-2.html">2 Column with space</a></li>
+        									<li><a href="portfolio-simple-3.html">3 Column with space</a></li>
+        									<li><a href="portfolio-simple-4.html">4 Column with space</a></li>
+        									<li><a href="portfolio-simple-5.html">5 Column with space</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="portfolio-nospace-simple-2.html">2 Column without space</a></li>
+        									<li><a href="portfolio-nospace-simple-3.html">3 Column without space</a></li>
+        									<li><a href="portfolio-nospace-simple-4.html">4 Column without space</a></li>
+        									<li><a href="portfolio-nospace-simple-5.html">5 Column without space</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_item">
+                                        <h3 class="mega_title">Side Portfolio</h3>
+                                        <ul>
+                                            <li><a href="portfolio-content2.html">Leftside Portfolio</a></li>
+        									<li><a href="portfolio-content.html">Rightside Portfolio</a></li>
+        									<li><a href="portfolio-content3.html">Alternate side Portfolio</a></li>
+        									<li><a href="portfolio-content4.html">Alternate side with Frame</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_item">
+                                        <h3 class="mega_title">More Portfolio</h3>
+                                        <ul>
+                                            <li><a href="portfolio-full.html">Mansonry Full Width Portfolio</a></li>
+        									<li><a href="single-portfolio-1.html">Single Project 1</a></li>
+        									<li><a href="single-portfolio-2.html">Single Project 2</a></li>
+        									<li><a href="single-portfolio-3.html">Single Project 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                        </li>
+                        <li class="submenu dropdown">
+                            <a href="pics.html">Gallery <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <!-- <ul class="dropdown-menu">
+                                    <li class="dropdown submenu right_dir">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Standard</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="blog.html">-  Right sidebar</a></li>
+                                            <li><a href="blog-left-sidebar.html">-  Left sidebar</a></li>
+                                            <li><a href="blog-without-sidebar.html">-  No sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown submenu right_dir">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Masonry</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="blog-masonry-grid.html">-  Masonry in grid</a></li>
+                                            <li><a href="blog-masonry-fullscreen.html">-  Masonry in full width</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown submenu right_dir">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Post type</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="blog-2column.html">-  Standard</a></li>
+                                            <li><a href="blog-details.html">-  Gallery</a></li>
+                                            <li><a href="blog-link.html">-  Link</a></li>
+                                            <li><a href="blog-audio.html">-  Audio</a></li>
+                                            <li><a href="blog-video.html">-  Video</a></li>
+                                            <li><a href="blog-quote.html">-  Quote</a></li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
+                        </li>
+                        <li class="submenu dropdown">
+                            <a href="faq.html">FAQ <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <!-- <ul class="dropdown-menu">
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="product-details.html">Single Product</a></li>
+                                    <li class="dropdown submenu right_dir">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="cart.html">-  Cart</a></li>
+                                            <li><a href="checkout.html">-  Checkout</a></li>
+                                            <li><a href="login.html">-  My Account</a></li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
+                        </li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li class="res_search">
+                            <input type="text">
+                            <i class="icon icon-Search"></i>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li data-rel="1" class="search_dropdown open-popup">
+                            <a href="#"><i class="icon icon-Search"></i></a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </header>
+        <!-- Header-END-->
+        <!-- Main banner-->
+        <div id="fullscreen-slides" class="fs-slides owl-carousel">
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="fist.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide1.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic1</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="homeless.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide2.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic2</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="code1.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide3.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic3</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="bootcamp.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide4.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic4</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="logo.jpeg"  alt="" class="imgShortcode"><a
+                            href="img/Home7/slide5.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic5</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="img/Home7/slide6.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide6.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic6</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="img/Home7/slide7.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide7.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic7</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioMasonry hoverStyle3">
+                <div class="sliderHover grid-item-new">
+                    <div class="imgWrapper"><img src="img/Home7/slide8.jpg" alt="" class="imgShortcode"><a
+                            href="img/Home7/slide8.jpg"></a></div>
+                    <div class="portfolioDescripton text-center">
+                        <a href="project-details.html">
+                            <h6 class="h6 as margbt10">pic8</h6>
+                        </a>
+                        <a href="project-details.html">
+                            <p>Mobile App</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main banner-->
+    </div>
+    <!-- Popup-START-->
+    <div class="popup-wrapper">
+        <div class="bg-layer"></div>
+        <!-- Popup1-START-->
+        <div data-rel="1" class="popup-content">
+            <div class="layer-close"></div>
+            <div class="popup-container searhPopup size-2">
+                <form>
+                    <h5 class="h5 as light">Search</h5>
+                    <input type="text" placeholder="Enter keyword" class="simple-input light">
+                    <div class="searchBorderBottom"></div>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <!-- Popup close button-START-->
+                <div class="button-close style2"><span></span><span></span></div>
+                <!-- Popup close button-END-->
+            </div>
+        </div>
+        <!-- Popup1-END-->
+    </div>
+    <!-- Popup-END-->
+    <!-- Styles-START-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.css" type="text/css">
+    <link rel="stylesheet" href="css/sumoselect.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/plugins/owl.carousel-2/assets/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mCustomScrollbar.css">
+    <!-- Styles-END-->
+    <!-- Scripts-START-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="css/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.viewportchecker.js"></script>
+    <script src="js/jquery.pogoslider.js"></script>
+    <script src="js/global.js"></script>
+    <script>
+        // Home Page 7
+        function centerSlideImages(event) {
+            var slide = $(event);
+            var conts = slide.find('.owl-item');
+            conts.each(function () {
+                var img = $(this).children('img');
+                var conRatio = $(this).width() / $(this).height();
+                var imgRatio = img.width() / img.height();
+                var mode = (conRatio > imgRatio) ? 'portrait' : 'landscape';
+                if (mode === 'portrait') {
+                    $(this).removeClass('landscape');
+                    $(this).addClass('portrait');
+                    img.css({
+                        marginTop: ($(this).height() - img.height()) / 2,
+                        marginLeft: 0,
+                    });
+                } else {
+                    $(this).removeClass('portrait');
+                    $(this).addClass('landscape');
+                    img.css({
+                        marginTop: 0,
+                        marginLeft: ($(this).width() - img.width()) / 2,
+                    });
+                };
+            });
+        }
+        $(window).on('load', function () {
+            $('.fs-slides').owlCarousel({
+                margin: 30,
+                items: 4,
+                pullDrag: false,
+                loop: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                animateOut: 'fadeOut',
+                responsiveRefreshRate: 0,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: false,
+                        nav: true,
+                        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                    },
+                    600: {
+                        items: 2,
+                        dots: false,
+                        nav: true,
+                        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                    },
+                    1000: {
+                        items: 4,
+                        dots: false,
+                        nav: true,
+                        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                    }
+                },
+                onInitialized: function (event) {
+                    centerSlideImages(event);
+                },
+                onResized: function (event) {
+                    centerSlideImages(event);
+                },
+            });
+        });
+    </script>
+    <!-- Scripts-END-->
+</body>
+
+</html>

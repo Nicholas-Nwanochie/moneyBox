@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800%7COpen+Sans:300,400,600,700%7CPT+Serif:400,700" rel="stylesheet">
+    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+    <title>WebCore</title>
+    <style>#loader-wrapper {position: fixed;left: 0;top: -100px;right: 0;bottom: -100px;background: #fff;z-index: 100;}</style>
+  </head>
+  <body>
+    <!-- Loader-START-->
+    <div id="loader-wrapper"></div>
+    <!-- Loader-END-->
+    <div id="content-block">
+      <!-- Header-START-->
+      <header class="main_menu_area">
+        <nav class="navbar navbar-default">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#"><img width="75px" height="70px" src="logo.jpeg" alt=""></a> -->
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown mega_menu active">
+                <a href="index.html">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <!-- <div class="dropdown-menu mega_menu_inner"> -->
+                <!-- <div class="mega_item">
+                                      <h3 class="mega_title">Home Pages</h3>
+                                      <ul>
+                                          <li><a href="index.html">Default Home Page</a></li>
+                                          <li><a href="02_Creative_Studio.html">Creative Studio</a></li>
+                                          <li><a href="03_Digital_Agency.html">Digital Agency</a></li>
+                                          <li><a href="04_Web_Agency.html">Web Agency</a></li>
+                                      </ul>
+                                      <ul>
+                                          <li><a href="05_Web_Designer_Home.html">Web Designer</a></li>
+                                          <li><a href="06_Developer_Home.html">Developer Home</a></li>
+                                          <li><a href="07_Frontend_Devloper.html">Frontend Developer</a></li>
+                                          <li><a href="08_Personal_Home.html">Personal Portfolio</a></li>
+                                          
+                                      </ul>
+                                      <ul>
+                                          <li><a href="09_Photographer_Home.html">Photographer Home</a></li>
+                                          <li><a href="10_Freelancer_Portfolio.html">Freelancer Portfolio</a></li>
+                                          <li><a href="11_mobile_App.html">Mobile App Home</a></li>
+                                          <li><a href="12_Architecture_Home.html">Architecture Home</a></li>
+                                          
+                                      </ul>
+                                      <ul>
+                                          <li><a href="13_Photograph_Full_Screen.html">Photography Full Screen</a></li>
+                                          <li><a href="14_Photography_with_sidebar.html">Photography With Side Bar</a></li>
+                                          <li><a href="15_Split_Portfolio_Home.html">Split Portfolio</a></li>
+                                          <li><a href="16_Small_Split_Portfolio.html">Small Split Portfolio</a></li>
+                                      </ul>
+                                      <ul>
+                                          <li><a href="17_Carousel_Portfolio.html">Carousel Portfolio</a></li>
+                                          <li><a href="18_Masonry_Portfolio.html">Mansonry Full Screen</a></li>
+                                          <li><a href="19_Fullscreen_Showcase.html">Full Screen Showcase</a></li>
+                                          <li><a href="20_Interactive_Home.html">Interactive Links</a></li>
+                                      </ul>
+                                  </div> -->
+                <!-- </div> -->
+              </li>
+              <li class="submenu dropdown">
+                <a href="services3.html">classes <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <!-- <ul class="dropdown-menu">
+                                  <li class="dropdown submenu">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="about-us.html">-  About Us 1</a></li>
+                                          <li><a href="about-us2.html">-  About Us 2</a></li>
+                                          <li><a href="about-us3.html">-  About Us 3</a></li>
+                                          <li><a href="about-us4.html">-  About Us 4</a></li>
+                                          <li><a href="about-us5.html">-  About Us 5</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown submenu">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="services.html">-  Services 1</a></li>
+                                          <li><a href="services2.html">-  Services 2</a></li>
+                                          <li><a href="services3.html">-  Services 3</a></li>
+                                          <li><a href="services4.html">-  Services 4</a></li>
+                                          <li><a href="services5.html">-  Services 5</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown submenu">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="contactus.html">-  Contact Us 1</a></li>
+                                          <li><a href="contact2.html">-  Contact Us 2</a></li>
+                                          <li><a href="contact3.html">-  Contact Us 3</a></li>
+                                          <li><a href="contact4.html">-  Contact Us 4</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown submenu">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Coming Soon</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="coming-soon.html">-  Coming Soon 1</a></li>
+                                          <li><a href="coming-soon2.html">-  Coming Soon 2</a></li>
+                                          <li><a href="coming-soon3.html">-  Coming Soon 3</a></li>
+                                          <li><a href="coming-soon4.html">-  Coming Soon 4</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown submenu">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="team-grid.html">-  Team grid</a></li>
+                                          <li><a href="team-list.html">-  Team List</a></li>
+                                          <li><a href="member-profile.html">-  Signal Team Member</a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a href="project-details.html">Project Details</a></li>
+                                  <li><a href="faq.html">Faq</a></li>
+                                  <li><a href="testimonials.html">Testimonials</a></li>
+                                  <li><a href="#">Our Partners</a></li>
+                                  <li><a href="career.html">Career</a></li>
+                                  <li><a href="404.html">404 error page</a></li>
+                              </ul> -->
+              </li>
+              <li class="dropdown mega_menu mega_list">
+                <a href="team-list.html">coaches <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <!-- <div class="dropdown-menu mega_menu_inner">
+                                  <div class="mega_item">
+                                      <h3 class="mega_title">Classic Portfolio</h3>
+                                      <ul>
+                                          <li><a href="portfolio2.html">2 Column with space</a></li>
+      									<li><a href="./pics.html">3 Column with space</a></li>
+      									<li><a href="./pics.html">4 Column with space</a></li>
+      									<li><a href="pics.html">5 Column with space</a></li>
+                                      </ul>
+                                      <ul>
+                                          <li><a href="portfolio-nospace-2.html">2 Column without space</a></li>
+      									<li><a href="portfolio-nospace-3.html">3 Column without space</a></li>
+      									<li><a href="portfolio-nospace-4.html">4 Column without space</a></li>
+      									<li><a href="portfolio-nospace-5.html">5 Column without space</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="mega_item">
+                                      <h3 class="mega_title">Grid Portfolio</h3>
+                                      <ul>
+                                          <li><a href="portfolio-simple-2.html">2 Column with space</a></li>
+      									<li><a href="portfolio-simple-3.html">3 Column with space</a></li>
+      									<li><a href="portfolio-simple-4.html">4 Column with space</a></li>
+      									<li><a href="portfolio-simple-5.html">5 Column with space</a></li>
+                                      </ul>
+                                      <ul>
+                                          <li><a href="portfolio-nospace-simple-2.html">2 Column without space</a></li>
+      									<li><a href="portfolio-nospace-simple-3.html">3 Column without space</a></li>
+      									<li><a href="portfolio-nospace-simple-4.html">4 Column without space</a></li>
+      									<li><a href="portfolio-nospace-simple-5.html">5 Column without space</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="mega_item">
+                                      <h3 class="mega_title">Side Portfolio</h3>
+                                      <ul>
+                                          <li><a href="portfolio-content2.html">Leftside Portfolio</a></li>
+      									<li><a href="portfolio-content.html">Rightside Portfolio</a></li>
+      									<li><a href="portfolio-content3.html">Alternate side Portfolio</a></li>
+      									<li><a href="portfolio-content4.html">Alternate side with Frame</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="mega_item">
+                                      <h3 class="mega_title">More Portfolio</h3>
+                                      <ul>
+                                          <li><a href="portfolio-full.html">Mansonry Full Width Portfolio</a></li>
+      									<li><a href="single-portfolio-1.html">Single Project 1</a></li>
+      									<li><a href="single-portfolio-2.html">Single Project 2</a></li>
+      									<li><a href="single-portfolio-3.html">Single Project 3</a></li>
+                                      </ul>
+                                  </div>
+                              </div> -->
+              </li>
+              <li class="submenu dropdown">
+                <a href="pics.html">Gallery <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <!-- <ul class="dropdown-menu">
+                                  <li class="dropdown submenu right_dir">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Standard</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="blog.html">-  Right sidebar</a></li>
+                                          <li><a href="blog-left-sidebar.html">-  Left sidebar</a></li>
+                                          <li><a href="blog-without-sidebar.html">-  No sidebar</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown submenu right_dir">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Masonry</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="blog-masonry-grid.html">-  Masonry in grid</a></li>
+                                          <li><a href="blog-masonry-fullscreen.html">-  Masonry in full width</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown submenu right_dir">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Post type</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="blog-2column.html">-  Standard</a></li>
+                                          <li><a href="blog-details.html">-  Gallery</a></li>
+                                          <li><a href="blog-link.html">-  Link</a></li>
+                                          <li><a href="blog-audio.html">-  Audio</a></li>
+                                          <li><a href="blog-video.html">-  Video</a></li>
+                                          <li><a href="blog-quote.html">-  Quote</a></li>
+                                      </ul>
+                                  </li>
+                              </ul> -->
+              </li>
+              <li class="submenu dropdown">
+                <a href="faq.html">FAQ <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <!-- <ul class="dropdown-menu">
+                                  <li><a href="shop.html">Shop</a></li>
+                                  <li><a href="product-details.html">Single Product</a></li>
+                                  <li class="dropdown submenu right_dir">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop Pages</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="cart.html">-  Cart</a></li>
+                                          <li><a href="checkout.html">-  Checkout</a></li>
+                                          <li><a href="login.html">-  My Account</a></li>
+                                      </ul>
+                                  </li>
+                              </ul> -->
+              </li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li class="res_search">
+                <input type="text">
+                <i class="icon icon-Search"></i>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li data-rel="1" class="search_dropdown open-popup">
+                <a href="#"><i class="icon icon-Search"></i></a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </nav>
+      </header>
+      <!-- Header-END-->
+      <!-- Main banner-START-->
+      <section class="ab_banner_area">
+          <div class="container">
+              <div class="ab_banner_text">
+                  <h3>FREQUENTLY ASK QUESTIONS</h3>
+                  <ul>
+                    
+                  </ul>
+              </div>
+          </div>
+      </section>
+      <!-- Main banner-END-->
+      <!-- FAQ-START-->
+      <div class="contentPadding">
+        <div class="container">
+          <div class="row">
+            <!-- Faq1-START-->
+            <div class="col-sm-6">
+              <div class="faqTitle">
+                <h4 class="h4 as">General Questions</h4>
+              </div>
+              <!-- Accordeon-START-->
+              <div class="accordeon style2">
+                <!-- Accordeon1-START-->
+                <div class="accordeon-title active">Steps we take to keep out the virus<i class="fa fa-caret-right"></i></div>
+                <div style="display: block;" class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>Our staff regularly cleans and sanatizes all equipment multiple times each day, as well as telling all visitors to wash their hands regularly at out facilitlies.</p>
+                  </div>
+                </div>
+                <!-- Accordeon1-END-->
+                <div class="emptySpace15"></div>
+                <!-- Accordeon2-START-->
+                <div class="accordeon-title">Times of operation<i class="fa fa-caret-right"></i></div>
+                <div class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>Mon-Fri 5:30pm-9pm</p>
+                    <p>Sat 11am-2pm</p>
+                    <p>personal training hours vary with client</p>
+                  </div>
+                </div>
+                <!-- Accordeon2-END-->
+                <div class="emptySpace15"></div>
+                <!-- Accordeon3-START-->
+                <div class="accordeon-title">Are all skill levles welcomed<i class="fa fa-caret-right"></i></div>
+                <div class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>YES! All skill levels are welcomed and encoraged to come</p>
+                  </div>
+                </div>
+                <!-- Accordeon3-END-->
+                <div class="emptySpace15"></div>
+                <!-- Accordeon4-START-->
+                <div class="accordeon-title">What if i dont have equipment<i class="fa fa-caret-right"></i></div>
+                <div class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>We have a wide array of gloves, wraps, and various other equipment items to give to out clients.</p>
+                  </div>
+                </div>
+                <!-- Accordeon4-END-->
+              </div>
+              <!-- Accordeon-END-->
+              <div class="emptySpace-xs30"></div>
+            </div>
+            <!-- Faq1-END-->
+            <!-- Faq2-START-->
+            <div class="col-sm-6">
+              <div class="faqTitle">
+                <h4 class="h4 as">General Questions</h4>
+              </div>
+              <!-- Accordeon-START-->
+              <div class="accordeon style2">
+                <!-- Accordeon1-START-->
+                <div class="accordeon-title active">How much is membership<i class="fa fa-caret-right"></i></div>
+                <div style="display: block;" class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>We have various offers depending on what you are looking for. Stop in and ask, or give us a call. 770-282-5098</p>
+                  </div>
+                </div>
+                <!-- Accordeon1-END-->
+                <div class="emptySpace15"></div>
+                <!-- Accordeon2-START-->
+                <div class="accordeon-title">Are guest welcomed to sit and watch<i class="fa fa-caret-right"></i></div>
+                <div class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p> Yes, guests are able to sit and watch a practice session</p>
+                   </div>
+                </div>
+                <!-- Accordeon2-END-->
+                <div class="emptySpace15"></div>
+                <!-- Accordeon3-START-->
+                <div class="accordeon-title">Is this gym only for boxers<i class="fa fa-caret-right"></i></div>
+                <div class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>Our gym is catered for boxers, but we offer something for evryone. Using boxing related workouts you will not only get in shape but learn how to defend yourself while you do it!</p>
+                  </div>
+                </div>
+                <!-- Accordeon3-END-->
+                <div class="emptySpace15"></div>
+                <!-- Accordeon4-START-->
+                <div class="accordeon-title">Do you go with competing fighters<i class="fa fa-caret-right"></i></div>
+                <div class="accordeon-toggle">
+                  <div class="simple-article normall">
+                    <p>Yes we travel with competing fighters.</p>
+                  </div>
+                </div>
+                <!-- Accordeon4-END-->
+              </div>
+              <!-- Accordeon-END-->
+            </div>
+            <!-- Faq2-END-->
+          </div>
+        </div>
+      </div>
+      <!-- FAQ-END-->
+      <!-- Find answer-START-->
+      <div class="contentPadding bgLightGrey">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2">
+              <div class="chooseTitle">
+                <h4 class="h4 as">don’t find the answer</h4>
+              </div>
+              <div class="emptySpace45 emptySpace-xs30"></div>
+              <form id="contact-form" onsubmit="return submitForm();" action="./" method="post" name="contactform">
+                <input name="name" type="text" required="" placeholder="Name" class="simple-input style2">
+                <div class="emptySpace20"></div>
+                <input name="email" type="email" required="" placeholder="Email Address" class="simple-input style2">
+                <div class="emptySpace20"></div>
+                <input name="subject" type="text" required="" placeholder="Subject" class="simple-input style2">
+                <div class="emptySpace20"></div>
+                <textarea name="message" required="" placeholder="Message" class="simple-input style2"></textarea>
+                <div class="emptySpace40"></div>
+                <button type="submit" class="button">Submit Now</button>
+                <div class="emptySpace10"></div>
+                <div class="requestSuccess"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Find answer-END-->
+<!--================Footer Area =================-->
+<footer class="main_footer_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-xs-6">
+        <aside class="f_widget logo_widget">
+          <!-- <a href="#"><img class="img-fluid" width="2.5 rem" height="2.5 rem" src="logo.jpeg" alt=""></a> -->
+
+          <!-- <a href="#"><img class="img-fluid" width="2.5 rem" height="2.5 rem" src="logo.jpeg" alt=""></a> -->
+        </aside>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <aside class="f_widget touch_widget">
+          <div class="f_w_title">
+            <h3>Get in Touch</h3>
+          </div>
+          <ul>
+            <li><a target="_blank" href="https://www.instagram.com/artilleryboxing/">instagram<i class="fa fa-instagram"
+                  aria-hidden="true"></i></a></li>
+            < </ul>
+        </aside>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <aside class="f_widget address_widget">
+          <div class="f_w_title">
+            <h3>Our Address</h3>
+          </div>
+          <p>5780 CH James Pkwy<br /> Suit 160 & 170<br /> Powder Springs, GA 30127</p>
+          <a href="#">
+            <h4>770-282-5098</h4>
+          </a>
+          <a href="#">
+            <h5>RUSSELLBOI@GMAIL.COM</h5>
+          </a>
+        </aside>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <aside class="f_widget copyright_widget">
+          <div class="f_w_title">
+            <h3>Artillery Boxing</h3>
+          </div>
+          <!-- <p>© <script>document.write(new Date().getFullYear());</script> Adison. All rights reserved. Created by Designarc</p> -->
+          <a href="#">Sighn up today</a>
+        </aside>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--================End Footer Area =================-->
+    </div>
+    <!-- Popup-START-->
+    <div class="popup-wrapper">
+      <div class="bg-layer"></div>
+      <!-- Popup1-START-->
+      <div data-rel="1" class="popup-content">
+        <div class="layer-close"></div>
+        <div class="popup-container searhPopup size-2">
+          <form>
+            <h5 class="h5 as light">Search</h5>
+            <input type="text" placeholder="Enter keyword" class="simple-input light">
+            <div class="searchBorderBottom"></div>
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <!-- Popup close button-START-->
+          <div class="button-close style2"><span></span><span></span></div>
+          <!-- Popup close button-END-->
+        </div>
+      </div>
+      <!-- Popup1-END-->
+    </div>
+    <!-- Popup-END-->
+    <!-- Styles-START-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.css" type="text/css">
+    <link rel="stylesheet" href="css/sumoselect.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="vendors/stroke-icon/style.css" type="text/css">
+    <link rel="stylesheet" href="vendors/flat-icon/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Styles-END-->
+    <!-- Scripts-START-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.viewportchecker.js"></script>
+    <script src="js/jquery.pogoslider.js"></script>
+    <script src="js/global.js"></script>
+    <!-- Scripts-END-->
+  </body>
+</html>
