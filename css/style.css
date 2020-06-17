@@ -16693,3 +16693,12 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
   font-size: 110px;
 } */
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.responsive1 {
+  max-width: auto;
+  height: auto;
+}
